@@ -1,13 +1,18 @@
 .btn-black {
-  background-color: black;
-  padding: 1rem 3rem;
+  background-color: $color-black;
   style: none;
+  border: none;
   border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: .8rem 3rem;
 }
 
 .btn-white {
-  border: 3px solid black;
-  padding: 1rem 2rem;
+  background-color: $color-white;
+  padding: .8rem 1rem;
   style: none;
   border-radius: 30px;
+  display: inline-block;
+  border: 3px solid $color-black;
 }

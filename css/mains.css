@@ -7,27 +7,49 @@
 img {
   border-radius: 0%; }
 
-nav h3 {
-  position: absolute;
-  margin-bottom: -20px; }
-nav .ben {
-  position: relative; }
-nav img {
-  border-radius: 50%; }
+nav {
+  width: 100%; }
+  nav .border-link {
+    border: 3px solid #000;
+    border-radius: 3rem;
+    margin-top: -4px; }
+  nav h3 {
+    position: absolute;
+    margin-bottom: -20px; }
+  nav .ben {
+    position: relative; }
+  nav img {
+    border-radius: 50%; }
 
 .btn-black {
-  background-color: black;
-  padding: 1rem 3rem;
+  background-color: #000;
   style: none;
-  border-radius: 30px; }
+  border: none;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: .8rem 3rem; }
 
 .btn-white {
-  border: 3px solid black;
-  padding: 1rem 2rem;
+  background-color: #fff;
+  padding: .8rem 1rem;
   style: none;
-  border-radius: 30px; }
+  border-radius: 30px;
+  display: inline-block;
+  border: 3px solid #000; }
+
+#header .logo img {
+  height: 2rem;
+  width: 2rem; }
 
 #projects .card {
-  border-radius: 30px !important; }
+  border-radius: 15px;
+  width: 370px;
+  margin-bottom: 30px; }
+  #projects .card img {
+    height: 300px;
+    width: 370px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; }
 
 /*# sourceMappingURL=mains.css.map */

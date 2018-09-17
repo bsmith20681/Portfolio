@@ -1,6 +1,23 @@
-#projects {
+#header {
+  .logo {
+    img {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+}
 
+#projects {
   .card {
-    border-radius: 0px !important;
+    border-radius: 15px;
+    width:370px;
+    margin-bottom: 30px;
+
+    img {
+      height: 300px;
+      width: 370px;
+      border-top-left-radius:15px;
+      border-top-right-radius: 15px;
+    }
   }
 }
