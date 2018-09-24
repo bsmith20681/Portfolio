@@ -52,4 +52,17 @@ nav {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; }
 
+.hide {
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+  transition: all 0.4s ease-in-out; }
+
+.category_item {
+  padding: 20px 0;
+  cursor: pointer;
+  width: 20%;
+  float: left;
+  text-align: center; }
+
 /*# sourceMappingURL=mains.css.map */
